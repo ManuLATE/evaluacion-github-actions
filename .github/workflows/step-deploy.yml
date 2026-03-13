@@ -37,5 +37,5 @@ jobs:
       - name: Deploy to Azure Service
         uses: azure/webapps-deploy@v2
         with:
-          app-name: app-api-uv-${{inputs.env}}-Manuel
+          app-name: app-api-uv-evaluacion-Manuel
           package: artifacts/
